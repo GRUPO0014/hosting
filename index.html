@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+	<script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+
+    <script src= "header.js"></script>
+	<script src= "desplazar.js"></script>	
+	<meta charset="UTF-8"/>
+	<title></title>
+	<link rel="stylesheet" href="styles.css">
+	<style type="text/css">
+
+    </style>
+</head>
+<body>
+	<header class = "header">
+	<div class = "container">
+		<div class = "login">
+			<a href = "login-form/index.html"><button>Identificarse / Crear una cuenta</button></a>	
+		</div>
+		<div class = "site-logo" >
+			<a href='#' >
+			<img src = "images/weon.png" alt = "joystick" style = "width: 350px;">
+			</a>
+		</div>
+		<div class = "linea" >
+			<img src="images/linea.svg" alt="tw"  style = "width: 1150px;">
+		</div>
+			<nav> 
+				<div class = "navigation"> 
+					<ul>
+						<li class = "home" style="padding: 0px 4px 0px 5px"><a href="#"><img src="images/joystick.png" alt="logo" style="width: 20px;"></a> </li>
+						<li class="nav-itemdropdown"> <a href="#" id="navbarDropdown1" role="button" aria-haspopup="true" aria-expanded="false">&nbsp;MENU&nbsp; </a>
+													  <div class="dropdownmenu">
+													  	<div class="dropdowncasilla"><a class="dropdownitem scroll-bot" href="#">&nbsp;TITULARES&nbsp;</a></div>
+													  	<div class="dropdowndivider"></div>
+													  	<div class="dropdowncasilla"><a class="dropdownitem scroll-bot" href="#news_block">&nbsp;NOTICIAS&nbsp;</a></div>
+													  	<div class="dropdowndivider"></div>
+													  	<div class="dropdowncasilla"><a class="dropdownitem scroll-bot" href="#news_block">&nbsp;VENDIDOS&nbsp;</a></div>
+													  	<div class="dropdowndivider"></div>
+													  	<div class="dropdowncasilla"><a class="dropdownitem scroll-bot" href="#news_block">&nbsp;REVIEWS&nbsp;</a></div>
+													  </div>
+						</li>
+						<li> <a href="crowdfunding/index.html">&nbsp;CROWDFUNDING&nbsp;</a> </li> 
+						<li> <a href="preguntas_frecuentes/index.html">&nbsp;FAQ&nbsp;</a> </li>
+						<li class="busca">
+							<form class="busca">&nbsp;<img src="images/search.png" alt="search" style="width: 20px;">&nbsp;&nbsp;<input type="text">&nbsp;
+							<button type="submit">Search</button>&nbsp;
+						</form></li>
+					</ul>
+				</div>
+				<div class = "social-media">
+					<ul>
+						<li><a href = "#"><img src="images/yt.svg" alt="yt"  style = "width: 25px;"></a></li>
+						<li><a href = "#"><img src="images/inst.svg" alt="inst" style = "width: 20px;"></a></li>
+						<li><a href = "#"><img src="images/tw.svg" alt="tw"  style = "width: 23px;"></a></li>
+					</ul>
+				</div>
+			</nav>				
+		
+		</div>
+	</header>
+	
+	<main>
+
+		<div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display: block; position: relative; max-width: 900px; margin-right: auto; margin-left: auto; margin-bottom: 98px; margin-top: 100px;">
+			<div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+				<ul class="amazingslider-slides" style="display:none;">
+					<li>
+						<a href="#"><img src="images/ps5_vs_xbox.jpg" alt="PS5 CONTRA XBOX X" title="PS5 CONTRA XBOX X" data-description="Primeras impresiones y comparaciones entre las nuevas consolas" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/sonic.jpeg" alt="EL PRISAS" title="EL PRISAS" data-description="Se rumorea que gracias al exito de la película de Sonic, se creara un spin-off basado en el mítico Big the Cat" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/dreams.jpg" alt="DREAMS" title="DREAMS" data-description="Mostramos los 20 proyectos más destacados de Dreams" /></a>
+					</li>
+				</ul>
+				<ul class="amazingslider-thumbnails" style="display:none;">
+					<li><img src="images/ps5_vs_xbox-tn.jpg" alt="PS5 CONTRA XBOX X" title="PS5 CONTRA XBOX X" /></li>
+					<li><img src="images/sonic-tn.jpeg" alt="EL PRISAS" title="EL PRISAS" /></li>
+					<li><img src="images/dreams-tn.jpg" alt="DREAMS" title="DREAMS" /></li>
+				</ul>
+				<div class="amazingslider-engine"><a href="http://amazingslider.com" title="jQuery Slideshow">Carrusel </a></div>
+			</div>
+		</div>
+		<div id="news_block">
+			<section class="block" id="block_0">
+				<section class="title">
+					<h3>TOP-SELLERS DEL MES</h3>
+				</section>
+				<table>
+					<thead>
+						<tr>
+							<th>Posición</th>
+							<th>Juego</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="position">1</td>
+							<td>Grand Theft Auto (PS4)</td>
+						</tr>
+						<tr>
+							<td class="position">2</td>
+							<td>Red Dead Redemption 2 (PS4)</td>
+						</tr>
+						<tr>
+							<td class="position">3</td>
+							<td>FIFA 20 (PS4)</td>
+						</tr>
+						<tr>
+							<td class="position">4</td>
+							<td>Minecraft: Nintendo Switch Edition (SW)</td>
+						</tr>
+						<tr>
+							<td class="position">5</td>
+							<td>Luigi's Mansion 3 (SW)</td>
+						</tr>
+						<tr>
+							<td class="position">6</td>
+							<td>Mario Kart 8 Deluxe (SW)</td>
+						</tr>
+						<tr>
+							<td class="position">7</td>
+							<td>Dragon Ball Z: Kakarot (PS4)</td>
+						</tr>
+						<tr>
+							<td class="position">8</td>
+							<td>Just Dance 2020 (SW)</td>
+						</tr>
+						<tr>
+							<td class="position">9</td>
+							<td>The Legend Of Zelda: Breath Of The Wild (SW)</td>
+						</tr>
+						<tr>
+							<td class="position">10</td>
+							<td>Super Mario Odyssey (SW)</td>
+						</tr>
+					</tbody>
+				</table>
+				<section class="ad" style="background-color:azure;  height: 30%">
+					<img src="images/ad-placeholder-large.png" alt="ad">
+				</section>
+			</section>
+			<section class="block" id="block_1">
+				<section class="title">
+					<h3>ÚLTIMAS REVIEWS</h3>
+				</section>
+				<section class="review">
+					<img src="images/final-fantasy-7.jpg" alt="final-fantasy">
+					<div class="mark" style="background-color:mediumspringgreen">
+						<p>87</p>
+					</div>
+					<section class="title">
+						<a href="#"><h2>Final Fantasy 7 Remake</h2></a>
+					</section>
+				</section>
+				<section class="review">
+					<img src="images/resident-evil-3.jpg" alt="resident-evil">
+					<div class="mark" style="background-color:gold">
+						<p>75</p>
+					</div>
+					<section class="title">
+						<a href="#"><h2>Resident Evil 3 Remake</h2></a>
+					</section>
+				</section>
+				<section class="review">
+					<img src="images/animal-crossing-new-horizons.jpg" alt="animal-crossing">
+					<div class="mark" style="background-color:mediumspringgreen">
+						<p>91</p>
+					</div>
+					<section class="title">
+						<a href="#"><h2>Animal Crossing: New Horizons</h2></a>
+					</section>
+				</section>
+				<section class="review">
+					<img src="images/persona-5-royal-ultimate-edition.jfif" alt="persona">
+					<div class="mark" style="background-color:mediumspringgreen">
+						<p>88</p>
+					</div>
+					<section class="title">
+						<a href="#"><h2>Persona 5 Royal</h2></a>
+					</section>
+				</section>
+				<section class="review">
+					<img src="images/ori-and-the-will-of-the-wisps.jpg" alt="ori">
+					<div class="mark" style="background-color:mediumspringgreen">
+						<p>84</p>
+					</div>
+					<section class="title">
+						<a href="#"><h2>Ori And The Will Of The Wisps</h2></a>
+					</section>
+				</section>
+				<section class="ad" style="background-color:azure;  height: 35%">
+					<img src="images/ad-placeholder-large.png" alt="ad">
+				</section>
+			</section>
+			<section class="block" id="block_2">
+				<section class="title">
+					<h3>NOVEDADES DE LA SEMANA</h3>
+				</section>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="images/resident-evil-4-remake.jpg" alt="re4">
+							<h2 class="news_text">
+								Resident Evil 4 Remake podría estar en desarrollo
+							</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/super-mario-3d-games.jpg" alt="mario">
+							<h2 class="news_text">
+								¿Qué trama Nintendo para el 35 aniversario de Super Mario?
+								Nuestra opinión sobre la rumoreada colección
+							</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/dualsense.jpg" alt="mando">
+							<h2 class="news_text">
+								Las mejoras técnicas del Dualsense de Sony
+							</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/the-last-of-us.jfif" alt="retraso">
+							<h2 class="news_text">
+								Las verdaderas causas detrás del retraso del
+								esperado The Last Of Us Part II
+							</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/ign.jpg" alt="ign">
+							<h2 class="news_text">
+								El evento IGN Summer Of Gaming gana apoyos y se
+								consolida como sustituto del E3
+							</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/stadia.jpg" alt="stadia">
+							<h2 class="news_text">
+								El servicio base de Google Stadia pasa a ser gratuito
+							</h2>
+						</a>
+					</li>
+				</ul>
+				<section id="featured_video">
+					<h2>
+						Escucha el último episodio de nuestro podcast
+					</h2>
+					<iframe width="320" height="200" src="https://www.youtube.com/embed/wLyWnHB-9ZQ"
+							frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+					gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</section>
+			</section>
+		</div>
+</main>
+	<footer class="footer" id="footer">
+	  <div class="titulo-footer">
+		<h3 style="color: #FFFFFF; font-size: 35px;">THE JOYSTICK</h3>
+		<h4 style="font-size: 20px; color: #FFFFFF;">Your gaming news portal</h4>
+	  </div>
+		<div><a href="#header" class="scroll-top" title="Ir arriba"> <span style="font-family: 'HP Simplified', Helvetica, sans-serif"><em class="fa fa-angle-up"></em></span><strong>Volver Arriba</strong></a></div>
+		<div class = "linea-footer" >
+			<img src="images/lineafooter.svg" alt="tw"  style = "width:95%">
+		</div>
+	  <div class="footerinfo">
+		  <p style="padding-left: 5%; padding-right: 5%;"><strong>Descripción</strong></p>
+		  <p style="padding-left: 5%; padding-right: 5%; text-align: justify;">El objetivo de The Joystick es poner en manos de sus usuarios cualquier información relevante del mundo de los videojuegos. Creando así una comunidad respetuosa y colaborativa, creciendo y aprendiendo todos juntos en nuestro mundo online.</p>
+	</div>
+		
+	  <div class="footerinfo">
+		  <p style="padding-left: 5%; padding-right: 5%;"><strong>Contacto</strong></p>
+		  <p style="padding-left: 5%; padding-right: 5%; text-align: justify;">Si desea colaborar o recibir más información puede facilitar sus datos en el siguiente apartado:</p>
+	    <p style="padding-left: 5%; padding-right: 5%;">&nbsp;</p>
+	    <form><p style="padding-left: 5%; padding-right: 5%;">Gmail:&nbsp;<input type="email">&nbsp;&nbsp;<input type="submit" value="Enviar"></p></form>
+	  </div>
+	  <div class="footerinfolast">
+		  <p style="padding-left: 5%; padding-right: 5%;"><strong>Socios</strong></p>
+		  <p style="padding-left: 5%; padding-right: 5%; text-align: justify;">Trabajamos en equipo con todos aquellos que quieran colaborar con nosotros bien sean asociaciones o personas individuales.</p>
+	  </div>
+	  <div class="disclaimer" style="float: left; width: 100%; margin-top: 14px; margin-bottom: 25px;"><p style="text-align: center; color: #FFFFFF; font-size: 12px;">ATENCIÓN: Esta página simula una campaña de crowdfunding de un proyecto y no representa un producto real.</p>
+	  <p style="text-align: center; color: #FFFFFF; font-size: 12px;">Práctica de Multimedia, 1º GDDV - Curso 19/20 (Móstoles), URJC.</p>
+      <p style="text-align: center; color: #FFFFFF; font-size: 12px;">La URJC no se hace responsable del contenido expuesto por el autor.</p>
+	  </div>
+	  
+</footer>
+</body>
+</html>    

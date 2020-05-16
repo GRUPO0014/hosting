@@ -8,7 +8,7 @@ a {
 }
 body {
 	background-color: #303D5A;
-	font-family: "HP Simplified", Helvetica, sans-serif;
+	font-family: "HP Simplified";
 	
 }
 .login{
@@ -149,6 +149,7 @@ body.selec2{
 	max-width: 1800px;
 	margin: 0 auto;
 	text-align: center;
+	font-family: "HP Simplified";
 }
 .m_container h1{
 	text-align: center;
